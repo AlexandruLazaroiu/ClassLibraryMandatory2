@@ -8,5 +8,13 @@ namespace ClassLibraryMandatory2
         public string Author { get; set; }
         public string ISBN { get; set; }
         public int PageNumber { get; set; }
+
+        public Book(string isbn, string title, string author, int pageNumber)
+        {
+            ISBN = isbn;
+            Title = title;
+            Author = author;
+            PageNumber = pageNumber;
+        }
     }
 }
